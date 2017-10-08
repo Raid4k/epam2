@@ -272,6 +272,7 @@ h2 {
     color:#ffffff;
     border: 3px solid #fcb94f;
     border-bottom:3px solid #cc830f;
+    cursor: pointer;
 }
 .footer-text {
     text-align: center;
