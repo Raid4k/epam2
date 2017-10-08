@@ -2,7 +2,6 @@
     font-family: 'stmarie';
     src: url('../fonts/StMarie-Thin-webfont.eot');
     src: url('../fonts/StMarie-Thin-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/StMarie-Thin-webfont.woff2') format('woff2'),
     url('../fonts/StMarie-Thin-webfont.woff') format('woff'),
     url('../fonts/StMarie-Thin-webfont.ttf') format('truetype'),
     url('../fonts/StMarie-Thin-webfont.svg#st_mariethin') format('svg');
