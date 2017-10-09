@@ -5,11 +5,9 @@
 body {
     background: #ffffff;
     min-width: 1024px;
+    min-height: calc(100vh - 69px);
 }
 
-h2 {
-    text-align: center;
-}
 
 .clearfix {
     display: inline-block;
@@ -119,18 +117,18 @@ h2 {
 }
 
 .slider .h1-orange {
-    background-color: rgba(110, 109, 107, 0.8);
-    color: #fb9c06;
+    background-color: rgba(79, 79, 79, 0.8);
+    color: #fb9706;
     font-size: 38px;
-    padding: 5px 20px;
+    padding: 8px 15px;
 
 }
 
 .slider .h1-dark {
-    background-color: rgba(251, 156, 6, 0.8);
+    background-color: rgba(251, 156, 6, 0.6);
     color: #6e6d6b;
     font-size: 38px;
-    padding: 5px 30px;
+    padding: 8px 20px;
 }
 
 .text {
@@ -157,17 +155,26 @@ h2 {
     margin-top: 20px;
     float: right;
     font-family: Calibri;
+    font-style: italic;
     font-size: 15px;
     color: #fb9c06;
     font-weight: 800;
 }
-
+.read-more:hover{
+    opacity:0.5;
+}
+.team-wrapper{
+    text-align: center;
+}
 .team-wrapper h2 {
     font-family: 'stmarie';
-    font-size: 50px;
-    font-weight: 300;
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 500;
     color: #fb9c06;
-    text-decoration: underline;
+    border-bottom: 3px solid #fb9c06;
+    position: relative;
+    display: inline-block;
 }
 
 .team-content {
@@ -195,7 +202,7 @@ h2 {
 .team-item p {
     font-family: Calibri;
     font-weight: 600;
-    line-height: 30px;
+    line-height: 20px;
     color: #6e6d6b;
     font-size: 15px;
     width: 60%;
@@ -210,11 +217,12 @@ h2 {
     border-radius: 50%;
     width: 290px;
     height: 290px;
-    background: url(../img/horse.png) no-repeat;
-    background-position: center;
     margin: 0 auto;
 }
-
+.horse{
+    background: url(../img/horse.png) no-repeat;
+    background-position: center;
+}
 .rabbit {
     background: url(../img/rabbit.png) no-repeat;
     background-position: center;
@@ -228,14 +236,21 @@ h2 {
 .contact {
     overflow: hidden;
     padding-bottom: 50px;
+    text-align: center;
 }
 
 .contact h2 {
     font-family: 'stmarie';
     font-size: 50px;
-    font-weight: 300;
+    font-weight: 500;
+    line-height: 52px;
     color: #fb9c06;
-    text-decoration: underline;
+    border-bottom: 3px solid #fb9c06;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 65px;
+    
+    
 }
 
 .label-options {
@@ -292,7 +307,9 @@ h2 {
     border-bottom: 3px solid #cc830f;
     cursor: pointer;
 }
-
+.btn:hover{
+    opacity:0.8;
+}
 .footer-text {
     text-align: center;
     border-bottom: 3px solid #cc830f;
